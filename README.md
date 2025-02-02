@@ -100,9 +100,9 @@ VITE_TINYMCE_API_KEY=your-tinymce-key
 
 ### Authentication
 
-| Method | Endpoint           | Description      |
-| ------ | ------------------ | ---------------- |
-| POST   | `/api/auth/login`  | Admin login      |
+| Method | Endpoint          | Description |
+| ------ | ----------------- | ----------- |
+| POST   | `/api/auth/login` | Admin login |
 
 ### FAQ Management
 
@@ -117,6 +117,11 @@ VITE_TINYMCE_API_KEY=your-tinymce-key
 
 ## 🚀 Deployment
 
+This application is currently deployed using:
+
+- Frontend: Vercel
+- Backend: Google Cloud Run
+- Redis: Render Redis Service
 
 ### Kubernetes Deployment
 
