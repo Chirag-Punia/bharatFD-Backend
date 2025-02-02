@@ -4,7 +4,7 @@
 echo "🏗️  Building Docker images..."
 ./k8s/build.sh
 
-kind create cluster --name faq-system
+
 # Deploy to Kubernetes
 
 echo "📦 Loading images into Kind cluster..."
