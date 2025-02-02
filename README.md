@@ -1,3 +1,7 @@
+# ADMIN CREDENTIALS 
+EMAIL - admin@example.com
+PASSWORD - admin123
+
 # Multilingual FAQ System
 
 A production-ready FAQ management system with automatic translation capabilities, built with React, Express, MongoDB, and Redis.
