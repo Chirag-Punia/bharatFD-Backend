@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: faq-system-config
+  namespace: faq-system
+data:
+  REDIS_URL: "redis://redis-service:6379"
+  NODE_ENV: "production"
+  VITE_API_URL: "http://backend-service:5003/api"
